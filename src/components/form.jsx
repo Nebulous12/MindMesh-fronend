@@ -57,7 +57,7 @@ const Form = () => {
             region : formData.region
         }
         console.log(data)
-        const res = await axios.post('http://127.0.0.1:5000/api',data);
+        const res = await axios.post('https://flask-api-3twi.onrender.com/api',data);
         console.log(res)
     }
     return (
